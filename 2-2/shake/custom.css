@@ -16,9 +16,6 @@ td:nth-child(3) {
 	color: red;
 }
 
-/*li li {
-	color: red;
-}*/
 
 /*css 3 selector way better than using a bunch of classes for things*/
 tr:nth-child(odd) {
@@ -30,6 +27,7 @@ a[href$=".pdf"] {
 	font-size: 1.3em;
 }
 
+/*it could even be 'youlikeit.' a substring is a -part- of the text. so you could use it for any pug hrefs to be a certain style*/
 a[href*="asyoulikeit"] {
 	color:orange;
 }
