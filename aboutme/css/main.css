@@ -1,0 +1,73 @@
+body {
+	background-color: #333;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+article img {
+	text-align: right;
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin: 20px;
+	/*float: right;*/
+}
+
+article {
+	line-height: 27px;
+	text-align: left;
+}
+
+div {
+	border: 2px solid #CCC;
+	padding: 30px;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+a {
+	color: #6ACC9C;
+
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-style: italic;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+footer {
+	text-align: center;
+	margin-top: 25px;
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: extra-bold;
+	color: #fff;
+}
+
+article li {
+	font-weight: 300;
+	color: #C0C0C0;
+
+}
+
+.job {
+	font-weight: 600;
+	
+
+}
