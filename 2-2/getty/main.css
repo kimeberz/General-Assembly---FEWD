@@ -1,0 +1,15 @@
+#container {
+	background-color: gray;
+	padding: 20px;
+}
+
+/*nested selector. it will only take buttons nested inside the switcher id.*/
+#switcher button {
+	font-size: 1.5em;
+
+}
+
+.speech a {
+	color: pink;
+	
+}
