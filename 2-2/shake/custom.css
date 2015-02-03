@@ -1,0 +1,35 @@
+#selected-plays ul {
+	background-color: gray;
+}
+
+.largetitle {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+td:nth-child(3) {
+	background-color: gray;
+}
+
+
+#selected-plays > li > ul > li {
+	color: red;
+}
+
+/*li li {
+	color: red;
+}*/
+
+/*css 3 selector way better than using a bunch of classes for things*/
+tr:nth-child(odd) {
+	background-color: gray;
+}
+
+a[href$=".pdf"] {
+	color: blue;
+	font-size: 1.3em;
+}
+
+a[href*="asyoulikeit"] {
+	color:orange;
+}
