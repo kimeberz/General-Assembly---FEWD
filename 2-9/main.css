@@ -97,6 +97,10 @@ img {
 	margin-bottom: 20px;
 }
 
+.col1:last-of-type {
+	border-right: none;
+}
+
 button {
 	text-transform: uppercase;
 	width: 100%;
