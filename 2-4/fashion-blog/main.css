@@ -1,0 +1,73 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 800px;
+	font-weight: 300;
+}
+
+
+.h1 {
+	color: red;
+}
+
+.h2
+
+
+p::first-letter {
+	font-size: 3em;
+	color: #686969;
+
+}
+
+.date {
+	color: rgb(204,204,204);
+	font-size: 2.0em;
+	font-weight: 300;
+}
+
+.title {
+	color: rgb(3,3,3);
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.nav {
+	display: inline;
+}
+
+.redtitle {
+	font-size: 3em;
+	color: rgb(220,62,56);
+	font-weight: 300;
+}
+
+/*.hr {
+	margin-top: 15px;
+}*/
+
+.nav {
+	color: rgb(204,204,204);
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+a {
+	color: rgb(204,204,204);
+	font-weight: 500;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	text-decoration: none;
+	margin-right: 10px;
+
+}
+
+.linkright {
+	color: rgb(220,62,56);
+	margin-bottom: 20px;
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+
+.article {
+	border-bottom: 2px solid grey;
+}
