@@ -1,7 +1,9 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	max-width: 800px;
+	max-width: 850px;
 	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -9,12 +11,20 @@ body {
 	color: red;
 }
 
-.h2
+.betterdressed {
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
 
 
 p::first-letter {
-	font-size: 3em;
+	font-size: 4em;
 	color: #686969;
+	margin-right: 10px;
+	margin-top: -19px;
+	margin-bottom: -24px;
+	float: left;
 
 }
 
@@ -60,14 +70,41 @@ a {
 
 }
 
+p {
+	font-size: 1.4em;
+}
+
 .linkright {
 	color: rgb(220,62,56);
 	margin-bottom: 20px;
 	float: right;
-	position: absolute;
 	right: 0px;
+	border-bottom-style: none;
+	margin-top: 40px;
+	font-weight: 600;
 }
 
 .article {
 	border-bottom: 2px solid grey;
+	max-width: 800px;
+}
+
+hr {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.foot {
+	color: rgb(220,62,56);
+	border-bottom-style: none;
+}
+
+.footlinks {
+	margin-top: 40px;
+	font-weight: 300;
+}
+
+footer {
+	color: rgb(204,204,204);
+	margin-top: 30px;
 }
