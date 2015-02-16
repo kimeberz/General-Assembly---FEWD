@@ -1,0 +1,11 @@
+.jumbotron {
+	text-align: center;
+}
+
+.container {
+	max-width: 730px;
+}
+
+.nav {
+	margin-top: 15px;
+}

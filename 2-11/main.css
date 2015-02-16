@@ -1,0 +1,8 @@
+.row div {
+	padding: 30px;
+	border: #333 2px solid;
+}
+
+@media(min-width: 600px) {
+	border: red 2px solid;
+}
