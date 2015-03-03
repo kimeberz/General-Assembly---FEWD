@@ -1,3 +1,16 @@
+activeReset = function(el) {
+	// el is a temp variable
+	if ($(el).hasClass("active")) {
+		$("#slide-down").slideUp();
+		$(el).removeClass("active");
+	} else {
+		$("#slide-down").slideDown();
+		$("#primary-nav li").removeClass("active");
+		$(el).addClass("active");
+	}
+
+}
+
 $(document).on("click", "li.international", function(event){
 	event.preventDefault();
 	$("#international-drop").show();
@@ -6,15 +19,8 @@ $(document).on("click", "li.international", function(event){
 	$("#technology-drop").hide();
 	$("#culture-drop").hide();
 	$("#blogs-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-		$("#slide-down").slideUp();
-		$(this).removeClass("active");
-	} else {
-		$("#slide-down").slideDown();
-		$("#primary-nav li").removeClass("active");
-		$(this).addClass("active");
-	}
+	activeReset(this);
+
 });
 
 $(document).on("click", "li.politics", function(event){
@@ -25,15 +31,7 @@ $(document).on("click", "li.politics", function(event){
 	$("#technology-drop").hide();
 	$("#culture-drop").hide();
 	$("#blogs-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-		$("#slide-down").slideUp();
-		$(this).removeClass("active");
-	} else {
-		$("#slide-down").slideDown();
-		$("#primary-nav li").removeClass("active");
-		$(this).addClass("active");
-	}
+	activeReset(this);
 });
 
 $(document).on("click", "li.business", function(event){
@@ -44,15 +42,7 @@ $(document).on("click", "li.business", function(event){
 	$("#technology-drop").hide();
 	$("#culture-drop").hide();
 	$("#blogs-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-			$("#slide-down").slideUp();
-			$(this).removeClass("active");
-		} else {
-			$("#slide-down").slideDown();
-			$("#primary-nav li").removeClass("active");
-			$(this).addClass("active");
-		}
+	activeReset(this);
 });
 
 $(document).on("click", "li.technology", function(event){
@@ -63,15 +53,7 @@ $(document).on("click", "li.technology", function(event){
 	$("#business-drop").hide();
 	$("#culture-drop").hide();
 	$("#blogs-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-			$("#slide-down").slideUp();
-			$(this).removeClass("active");
-		} else {
-			$("#slide-down").slideDown();
-			$("#primary-nav li").removeClass("active");
-			$(this).addClass("active");
-		}
+	activeReset(this);
 });
 
 $(document).on("click", "li.culture", function(event){
@@ -82,15 +64,7 @@ $(document).on("click", "li.culture", function(event){
 	$("#business-drop").hide();
 	$("#technology-drop").hide();
 	$("#blogs-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-			$("#slide-down").slideUp();
-			$(this).removeClass("active");
-		} else {
-			$("#slide-down").slideDown();
-			$("#primary-nav li").removeClass("active");
-			$(this).addClass("active");
-		}
+	activeReset(this);
 });
 
 $(document).on("click", "li.blogs", function(event){
@@ -101,15 +75,7 @@ $(document).on("click", "li.blogs", function(event){
 	$("#business-drop").hide();
 	$("#technology-drop").hide();
 	$("#culture-drop").hide();
-	
-	if ($(this).hasClass("active")) {
-			$("#slide-down").slideUp();
-			$(this).removeClass("active");
-		} else {
-			$("#slide-down").slideDown();
-			$("#primary-nav li").removeClass("active");
-			$(this).addClass("active");
-		}
+	activeReset(this);
 });
 
 
