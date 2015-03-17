@@ -1,0 +1,21 @@
+/*lets now do some form validation -- use a plugin for good field validation*/
+
+$(document).on("click", "#submit", function() {
+  var username_entered = $("input[name='username']").val();
+  var password_entered = $("input[name='password']").val();
+  var password_entered = $("input[name='password']").val();
+  
+  var dataObj = {
+    username: username_entered,
+    password: password_entered
+  };
+  
+  for (info in dataObj) {
+    if (dataObj[info] === "") {
+      alert("please enter yo stuff!");
+      return false;
+    } 
+  }
+  
+  alert("Thanks for submitting yo digits!")
+});
