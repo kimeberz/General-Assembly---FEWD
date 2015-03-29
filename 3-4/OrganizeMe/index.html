@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://bootswatch.com/sandstone/bootstrap.min.css">
+	<link rel="stylesheet" href="https://bootswatch.com/sandstone/bootstrap.css">
 </head>
 <body>
 
@@ -20,38 +20,102 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">QUADR</a>
+      <a class="navbar-brand" href="#">QUADRATEC</a>
     </div>
+	
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
       <form class="navbar-form navbar-left" role="search">
+		
+		<select class="form-control input-md" name="v" style="width:150;" onchange="select_vehicle('v',this.value,1825,'/default.php')"><option value="" selected="">Choose your vehicle</option><option value=" ">-----------------</option><option value="9999">Show all</option><option value="100">07-15 Wrangler 2-Door</option><option value="150">07-15 Wrangler Unlimited 4-Door</option><option value="200">97-06 Wrangler</option><option value="300">04-06 Wrangler Unlimited</option><option value="400">87-95 Wrangler</option><option value="500">76-86 CJ-7</option><option value="600">81-85 CJ-8</option><option value="700">76-83 CJ-5</option><option value="800">55-75 CJ-6</option><option value="900">55-75 CJ-5</option><option value="950">40-65 Willys MB, M-38, GPW, CJ2 &amp; CJ3</option><option value="1000">84-01 Cherokee</option><option value="1050">14-15 Cherokee</option><option value="1100">93-98 Grand Cherokee</option><option value="1150">99-04 Grand Cherokee</option><option value="1200">05-10 Grand Cherokee</option><option value="1201">11-15 Grand Cherokee</option><option value="1300">06-10 Commander</option><option value="1400">02-07 Liberty</option><option value="1500">08-10 Liberty</option></select>
+
+		<!-- <select name="" id="">
+			<option value="" selected="">Choose your vehicle</option>
+			<option value=""></option>
+		</select> -->
+
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" placeholder="Keyword or Part #">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Go</button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
+		
+	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-2">
+	  <ul class="nav navbar-nav">
+	    <li class="active"><a href="#">Shopping Cart <span class="sr-only">(current)</span></a></li>
+	    <li><a href="#">Link</a></li>
+	    <li class="dropdown">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
+	      <ul class="dropdown-menu" role="menu">
+	        <li><a href="#">Wishlist</a></li>
+	        <li><a href="#">Order History</a></li>
+
+	        <li class="divider"></li>
+	        <li><a href="#">Separated link</a></li>
+	        <li class="divider"></li>
+	        <li><a href="#">One more separated link</a></li>
+	      </ul>
+	    </li>
+	  </ul>	
+
     </div>
   </div>
 </nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" data-ride="carousel">
+    <div class="item active">
+      <img src="http://image.trucktrend.com/f/autoshows/events/163_1310_the_palo_duro_jeep_jamboree/48737590/palo-duro-jeep-jamboree-2013-jeep-wrangler-front-end-off-road-06.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://www.wallpaperup.com/uploads/wallpapers/2013/07/01/112341/big_thumb_7246be24e18af1d1e0fcb95e3947326b.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+      <div class="item">
+      <img src="http://www.yourjeep.com/wp-content/uploads/2010/04/jeep-offroad-lights.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<div class="slogan">
+	<ul><span class="headline">Experience the Quadratec difference</span>
+		<li>Over 100,000 Parts for All Jeep vehicles.
+		</li>
+		<li>The Trusted Source for Jeep parts for over 25 years.</li>
+		<li>Free Lifetime Tech Support with every purchase.</li>
+		<li>Fast shipping. Most orders ship the same day.</li>
+		<li>Free shipping on orders $75 and over**</li>
+		<li>Jeep Experts waiting to take your call.</li>
+	</ul>
+</div>
 
 </body>
 

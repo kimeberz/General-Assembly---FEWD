@@ -1,0 +1,18 @@
+.carousel {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	max-height: 500px;
+}
+
+.slogan {
+	margin-top: 40px;
+	/*text-align: center;*/
+}
+
+.headline {
+	margin-top: 40px;
+	color: #02665e;
+	font-size: 20px;
+}
