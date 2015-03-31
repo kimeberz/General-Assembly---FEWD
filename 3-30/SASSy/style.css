@@ -1,0 +1,29 @@
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+nav {
+  background-color: #000;
+  padding: 20px; }
+
+footer {
+  padding: 20px;
+  background-color: #CCC;
+  font-size: 2em; }
+
+.class1 {
+  font-family: helvetica;
+  font-size: 20px;
+  color: #ccc;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+.my-class div {
+  background-color: pink;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */

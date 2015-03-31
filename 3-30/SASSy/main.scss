@@ -1,0 +1,40 @@
+// variables
+
+$my-fonts: helvetica;
+$my-size: 20px;
+$cool-color: #ccc;
+
+// dem mixins
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.box {
+    @include border-radius(10px);
+}
+
+// partials, pull in the little bits. modularity, yo.
+
+@import "partials/header";
+@import "partials/footer";
+
+.class1 {
+	font-family: $my-fonts;
+	font-size: $my-size;
+	color: $cool-color;
+	@include border-radius(20px);
+}
+
+// nesting!
+
+.my-class {
+	div {
+		background-color: pink;
+		padding: 20px;
+	}
+}
+
+
