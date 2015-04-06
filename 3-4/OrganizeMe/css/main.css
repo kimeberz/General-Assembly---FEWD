@@ -1,8 +1,14 @@
+.container { 
+/*	max-width: 1370px;
+	margin-left: auto !important;
+	margin-right: auto !important; */
+}
+
 .carousel {
-	margin-left: 250px;
+	/*margin-left: 250px;
 	margin-right: 250px;
 	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 70px;*/
 	max-height: 500px;
 }
 
@@ -18,8 +24,7 @@
 }
 
 .sidebarz {
-	padding-left: -5px;
-	margin-right: 10px;
+	/*padding-left: -5px;*/
 	background-color: #ccc;
 }
 

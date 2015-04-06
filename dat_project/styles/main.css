@@ -1,0 +1,45 @@
+body {
+	max-width: 950px;
+
+}
+
+.profile {
+
+}
+
+.profile-pic {
+
+}
+
+.run-panel {
+	border: 3px solid #ccc;
+	border-radius: 3px;
+
+}
+
+.panel-title {
+	border-bottom: 2px; solid #ccc;
+	font-size: 1.7em;
+
+}
+
+.count {
+
+}
+
+.miles {
+
+}
+
+.fitbit {
+	background-color: #3EA3A6;
+	text-align: center;
+	color: white;
+
+}
+
+.strava {
+	background-color: #FC4C02;
+	text-align: center;
+	color: white;
+}
