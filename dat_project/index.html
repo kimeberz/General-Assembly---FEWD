@@ -11,6 +11,8 @@
 
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="styles/animate.css">
+
 	<title>Fitnezz</title>
 </head>
 <body>
@@ -50,9 +52,10 @@
 			
 			<!-- running data -->
 			<div class="col-md-6">
-				
+				<div class="sml-title"><span>Running</span></div>
+
 				<!-- This weeks runs -->
-				<div class="run-panel">
+				<div id="pop1" class="animated run-panel">
 					<div class="panel-title">This Week</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -68,7 +71,7 @@
 				</div>
 
 				<!-- This months runs -->
-				<div class="run-panel">
+				<div id="pop3" class="animated run-panel">
 					<div class="panel-title">This Month</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -84,7 +87,7 @@
 				</div>
 
 				<!-- runs - all time -->
-				<div class="run-panel">
+				<div id="pop5" class="animated run-panel">
 					<div class="panel-title">All Time</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -104,8 +107,9 @@
 			<!-- Cycling data -->
 			<div class="col-md-6">
 				
+				<div class="sml-title"><span>Cycling</span></div>
 				<!-- This weeks rides -->
-				<div class="run-panel">
+				<div id="pop2" class="animated run-panel">
 					<div class="panel-title">This Week</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -121,7 +125,7 @@
 				</div>
 
 				<!-- This months rides -->
-				<div class="run-panel">
+				<div id="pop4" class="animated run-panel">
 					<div class="panel-title">This Month</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -137,7 +141,7 @@
 				</div>
 
 				<!-- rides - all time -->
-				<div class="run-panel">
+				<div id="pop6" class="animated run-panel">
 					<div class="panel-title">All Time</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -165,7 +169,7 @@
 			<div class="col-md-12">
 				
 				<div class="col-md-3">
-					<div class="run-panel">
+					<div id="pop7" class="animated run-panel">
 						<div class="panel-title">Steps - Today</div>
 						<div class="row">
 						<div class="col-md-12">
@@ -181,7 +185,7 @@
 				</div>
 
 				<div class="col-md-3">
-					<div class="run-panel">	
+					<div id="pop8" class="animated run-panel">	
 						<div class="panel-title">Miles - Today</div>
 							<div class="row">
 							<div class="col-md-12">
@@ -197,7 +201,7 @@
 				</div>
 
 				<div class="col-md-3">
-					<div class="run-panel">
+					<div id="pop9" class="animated run-panel">
 						<div class="panel-title">Resting Heartrate - Today</div>
 						<div class="row">
 							<div class="col-md-12">
@@ -213,7 +217,7 @@
 				</div>
 
 				<div class="col-md-3">
-					<div class="run-panel">
+					<div id="pop" class="animated run-panel">
 						<div class="panel-title">Max Heartrate - Today</div>
 						<div class="row">
 							<div class="col-md-12">
@@ -224,6 +228,7 @@
 								<div class="col-md-8">
 									<div class="count">179 BPM</div>
 								</div>
+							
 							</div>
 						</div>
 					</div>
@@ -250,5 +255,4 @@
 
 	<script type="text/javascript" src="js/app.js"></script>
 
-	<script type="text/javascript" src="js/handlebars.js"></script>
 </html>

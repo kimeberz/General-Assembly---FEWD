@@ -1,5 +1,5 @@
 body {
-	max-width: 950px;
+	max-width: 1250px;
 	background-color: #F8F8F8;
 	margin-left: auto;
 	margin-right: auto;
@@ -7,6 +7,15 @@ body {
 	font-family: HelveticaNeue-Light;
 	font-weight: lighter;
 
+}
+
+.container {
+	max-width: 1250px !important;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .icon {
@@ -19,6 +28,7 @@ body {
 
 .profile-top {
 	padding-bottom: 30px;
+	margin-top: 30px;
 }
 
 .profile {
@@ -57,6 +67,7 @@ body {
 
 }
 
+
 .count {
 	font-size: 1.7em;
 	padding: 10px 20px 10px 20px;
@@ -84,4 +95,77 @@ body {
 	color: white;
 	text-transform: uppercase;
 	padding: 20px 0px 20px 0px;
+}
+
+
+.sml-title {
+    text-align: center;
+    position: relative;
+    font-size: 1.5em;
+	margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+span {
+    display: inline-block;    
+}
+span:before,
+span:after {
+    border-top: 1px solid #D4D9D9;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: .8em;
+}
+span:after {
+   right: 0;  
+   left: auto; 
+}
+
+.animated {
+	duration: 10000 !important;
+}
+
+#pop {
+  visibility:hidden;
+}
+
+#pop1 {
+  visibility:hidden;
+}
+
+#pop2 {
+  visibility:hidden;
+}
+
+#pop3 {
+  visibility:hidden;
+}
+
+#pop4 {
+  visibility:hidden;
+}
+
+#pop5 {
+  visibility:hidden;
+}
+
+#pop6 {
+  visibility:hidden;
+}
+
+#pop7 {
+  visibility:hidden;
+}
+
+#pop8 {
+  visibility:hidden;
+}
+
+#pop9 {
+  visibility:hidden;
 }
