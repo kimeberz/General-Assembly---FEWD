@@ -9,6 +9,8 @@
 
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
 	<title>Fitnezz</title>
 </head>
 <body>
@@ -22,16 +24,17 @@
 	<div class="container row">
 		
 		<!-- profile top -->
-		<div class="row">
+		<div class="profile-top row">
 			<div class="col-md-4">
 				<div class="profile">
-					Kimberly Eberz
+					<div class="name">Kimberly Eberz</div>
+					<div class="loc">San Francisco, CA</div>
 				</div>
 			</div>
 			
 			<div class="col-md-8">
 				<div class="profile-pic">
-					
+					<img alt="Kimberly Eberz" class="profile-pic" src="https://dgalywyr863hv.cloudfront.net/pictures/athletes/164024/52678/1/large.jpg" title="Kimberly Eberz">
 				</div>
 			</div>
 			
@@ -43,7 +46,7 @@
 		</div>
 			
 		<!-- strava stats -->	
-		<div class="row strava">
+		<div class="row strava-content">
 			
 			<!-- running data -->
 			<div class="col-md-6">
@@ -51,22 +54,49 @@
 				<!-- This weeks runs -->
 				<div class="run-panel">
 					<div class="panel-title">This Week</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon run col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- This months runs -->
 				<div class="run-panel">
 					<div class="panel-title">This Month</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- runs - all time -->
 				<div class="run-panel">
 					<div class="panel-title">All Time</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -77,22 +107,49 @@
 				<!-- This weeks rides -->
 				<div class="run-panel">
 					<div class="panel-title">This Week</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- This months rides -->
 				<div class="run-panel">
 					<div class="panel-title">This Month</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- rides - all time -->
 				<div class="run-panel">
 					<div class="panel-title">All Time</div>
-					<div class="count">4</div>
-					<div class="miles">45</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bomb fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">4</div>
+								<div class="miles">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -104,15 +161,76 @@
 		</div>
 			
 		<!-- fitbit stats -->	
-		<div class="row fitbit">
-			<div class="col-md-6">
+		<div class="row fitbit-content">
+			<div class="col-md-12">
 				
+				<div class="col-md-3">
+					<div class="run-panel">
+						<div class="panel-title">Steps - Today</div>
+						<div class="row">
+						<div class="col-md-12">
+							<div class="pull-left icon col-md-4">
+								<i class="fa fa-bicycle fa-4x"></i>
+							</div>
+							<div class="col-md-8">
+								<div class="count">20,000 Steps</div>
+							</div>
+						</div>
+					</div>
+					</div>	
+				</div>
+
+				<div class="col-md-3">
+					<div class="run-panel">	
+						<div class="panel-title">Miles - Today</div>
+							<div class="row">
+							<div class="col-md-12">
+								<div class="pull-left icon col-md-4">
+									<i class="fa fa-map-marker fa-4x"></i>
+								</div>
+								<div class="col-md-8">
+									<div class="count">9 Miles</div>
+								</div>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="run-panel">
+						<div class="panel-title">Resting Heartrate - Today</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="pull-left icon col-md-4">
+									<i class="fa fa-bed fa-4x"></i>
+								</div>
+								<div class="col-md-8">
+									<div class="count">49 BPM</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="run-panel">
+						<div class="panel-title">Max Heartrate - Today</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="pull-left icon col-md-4">
+									<i class="fa fa-heartbeat fa-4x"></i>
+									<!-- fa-fire -->
+								</div>
+								<div class="col-md-8">
+									<div class="count">179 BPM</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 			</div>
 
-			<div class="col-md-6">
-				
-			</div>
 		</div>
 		
 	</div>

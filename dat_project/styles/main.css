@@ -1,45 +1,87 @@
 body {
 	max-width: 950px;
+	background-color: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	color: #6D7C8A;
+	font-family: HelveticaNeue-Light;
+	font-weight: lighter;
 
+}
+
+.icon {
+	padding: 20px;
+}
+
+.run {
+	color: ;
+}
+
+.profile-top {
+	padding-bottom: 30px;
 }
 
 .profile {
+	font-size: 2em;
+	font-family: HelveticaNeue-Light;
 
 }
 
+.loc {
+	margin-top: 5px;
+	font-size: .7em
+}
+
 .profile-pic {
+  border-radius: 50%;
+  text-align: right;
 
 }
 
 .run-panel {
-	border: 3px solid #ccc;
+	border: 2px solid #E0E4E5;
+	background-color: white;
 	border-radius: 3px;
+	margin: 30px 10px 30px 10px;
+	/*padding: 20px;*/
 
 }
 
 .panel-title {
-	border-bottom: 2px; solid #ccc;
-	font-size: 1.7em;
+	border-bottom: 2px solid #A7C9E0;
+	font-size: 1.4em;
+	text-decoration: uppercase;
+	padding: 10px 20px 10px 0px;
+	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
 .count {
-
+	font-size: 1.7em;
+	padding: 10px 20px 10px 20px;
 }
 
 .miles {
-
+	font-size: 1.7em;
+	padding: 10px 20px 10px 20px;
 }
 
 .fitbit {
 	background-color: #3EA3A6;
+	font-size: 1.6em;
 	text-align: center;
 	color: white;
+	text-transform: uppercase;
+	padding: 20px 0px 20px 0px;
 
 }
 
 .strava {
 	background-color: #FC4C02;
+	font-size: 1.6em;
 	text-align: center;
 	color: white;
+	text-transform: uppercase;
+	padding: 20px 0px 20px 0px;
 }
