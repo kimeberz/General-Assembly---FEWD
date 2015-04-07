@@ -22,6 +22,30 @@ body {
 	padding: 20px;
 }
 
+.fa-bed {
+	color: #2185C5;
+}
+
+.fa-heartbeat {
+	color: #FF434C;
+}
+
+.fa-bicycle {
+	color: #00A79D;
+}
+
+.fa-dashboard {
+	color: #A7C9E0;
+}
+
+.fa-flash {
+	color: #F1C148;
+}
+
+.fa-bomb {
+	color: #B31612;
+}
+
 .run {
 	color: ;
 }
