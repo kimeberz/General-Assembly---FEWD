@@ -22,16 +22,52 @@
 
 
 
-  $(document).ready( function(){
-  $('#pop1').animateCSS("fadeIn");
-  $('#pop2').animateCSS("fadeIn", {delay: 250});
-  $('#pop3').animateCSS("fadeIn", {delay: 500});
-  $('#pop4').animateCSS("fadeIn", {delay: 750});
-  $('#pop5').animateCSS("fadeIn", {delay: 1000});
-  $('#pop6').animateCSS("fadeIn", {delay: 1250});
-  $('#pop7').animateCSS("fadeIn", {delay: 1500});
-  $('#pop8').animateCSS("fadeIn", {delay: 1750});
-  $('#pop9').animateCSS("fadeIn", {delay: 2000});
-  $('#pop').animateCSS("fadeIn", {delay: 2500});
+$(document).ready( function(){
+	var del = 0;
+	$('.running .pop').each(function(i, el) {
+		$(el).animateCSS('fadeIn', {delay: del});
+		$(el).animateCSS('zoomIn', {delay: del});
+		del += 250;
+	});
 
+	del = 0;
+	$('.cycling .pop').each(function(i, el) {
+		$(el).animateCSS('fadeIn', {delay: del});
+		$(el).animateCSS('zoomIn', {delay: del});
+		del += 250;
+	});
+
+	del = 0;
+	$('.pop').each(function(i, el) {
+		$(el).animateCSS('fadeIn', {delay: del});
+		$(el).animateCSS('zoomIn', {delay: del});
+		del += 250;
+	});
 });
+
+/* 
+* Test Locations
+* Austin lat/long: 30.2676,-97.74298
+* Austin WOEID: 2357536
+*/
+$(document).ready(function() {
+	navigator.geolocation.getCurrentPosition(function(position) {
+	  loadWeather(position.coords.latitude+','+position.coords.longitude); //load weather using your lat/lng coordinates
+	});
+});
+
+function loadWeather(location, woeid) {
+  $.simpleWeather({
+    location: location,
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      $("#weather").html(html);
+    },
+    error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+}
+
